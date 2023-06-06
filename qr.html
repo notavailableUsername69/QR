@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>QR Code Reader</title>
+  <link rel="stylesheet" type="text/css" href="qr.css">
+</head>
+<body>
+  <h1>QR Code Reader</h1>
+  <input type="file" id="qr-image" accept="image/*">
+  <button onclick="decodeQRCode()">Decode</button>
+  <div id="result"></div>
+  <script src="https://cdn.jsdelivr.net/npm/jsqr/dist/jsQR.js"></script>
+  <script src="qr.js"></script>
+</body>
+</html>
